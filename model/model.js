@@ -8,7 +8,7 @@ let Products = new Schema(
     price: { type: String },
     company: { type: String },
     info: { type: String },
-    inCart: { type: String },
+    inCart: { type: Boolean },
     count: { type: Number },
     total: { type: Number },
   },
